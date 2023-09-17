@@ -1,0 +1,85 @@
+.footer{
+    color: white;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.footersec{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.footlogo{
+    width: 150px;
+}
+
+.footh{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.footersec > span{
+    margin: 10px;
+
+}
+
+.footicons{
+    margin-top: 10px;
+    width: 100px;
+    display: flex;
+}
+
+.getintouch{
+    background-color: #4157F4;
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footlogomob{
+    display: none;
+}
+
+@media only screen and (max-width:787px)
+{
+
+
+    .footlogomob{
+        display: block;
+        width: 130px;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+
+    .footer{
+        display: none;
+        width: 100%;
+    }
+
+    .footermobile{
+        display: flex;
+        align-items: flex-start;
+        justify-content:center;
+        padding-bottom: 60px;
+    }
+
+    .footersec{
+        width: 50%;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
