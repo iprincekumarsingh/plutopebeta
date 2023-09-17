@@ -51,6 +51,11 @@
     display: none;
 }
 
+
+.footermobile{
+    display: none;
+}
+
 @media only screen and (max-width:787px)
 {
 
