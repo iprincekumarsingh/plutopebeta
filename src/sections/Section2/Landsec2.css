@@ -69,6 +69,21 @@
     width: 30%;
 }
 
+
+
+.sec3textland{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 100px; */
+}
+
+.sec3textland > img{
+    width: 30%;
+}
+
 .reportbtn{
     cursor: pointer;
     width: 15% !important;
@@ -162,6 +177,21 @@
     }
 
     .sec3text > img{
+        width: 70%;
+    }
+
+
+    .sec3textland{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        /* margin-top: 60px; */
+    }
+
+    .sec3textland > img{
         width: 70%;
     }
 
