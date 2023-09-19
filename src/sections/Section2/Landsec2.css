@@ -44,6 +44,7 @@
     height: auto  !important;
     bottom: 50px;
     left: 30px;
+    cursor: pointer;
 }
 
 .appleimage{
@@ -52,6 +53,7 @@
     height: auto  !important;
     bottom: 120px;
     left: 30px;
+    cursor: pointer;
 }
 
 .sec2price{
