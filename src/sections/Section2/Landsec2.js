@@ -10,6 +10,8 @@ import bigcards3 from "../../Asserts/bigcards3.png";
 import sec3text from "../../Asserts/sec3text.png";
 import sec3btn from "../../Asserts/reportbugbtn.png";
 import manphoto from "../../Asserts/manphoto.png";
+import google from "../../Asserts/gplay.png";
+import apple from "../../Asserts/appstore.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -24,9 +26,41 @@ export const Landsec2 = () => {
 				How to <br /> <span style={{ fontWeight: "700" }}>Participate?</span>{" "}
 			</span>
 			<div className="sec2boxes">
-				<img src={sec2box1} data-aos="fade-right" alt="" />
-				<img src={sec2box2} alt="" data-aos="fade-left" />
-				<img src={sec2box3} alt="" data-aos="fade-right" />
+				<div className="sec2box1cont">
+					<img
+						src={sec2box1}
+						className="sec2box11"
+						data-aos="fade-right"
+						alt=""
+					/>
+					<img
+						src={google}
+						alt=""
+						onClick={(e) => {
+							e.preventDefault();
+							window.location =
+								"https://portal.testapp.io/apps/install/d31eK16w0V1Wg";
+						}}
+						className="gogoleimage"
+					/>
+					<img
+						src={apple}
+						alt=""
+						className="appleimage"
+						onClick={(e) => {
+							e.preventDefault();
+
+							window.location = "https://testflight.apple.com/join/2yDMHRSz";
+						}}
+					/>
+				</div>
+				<div className="sec2box1cont">
+					{" "}
+					<img src={sec2box2} alt="" data-aos="fade-left" />
+				</div>
+				<div className="sec2box1cont">
+					<img src={sec2box3} alt="" data-aos="fade-right" />
+				</div>
 			</div>
 			<div className="sec2price" data-aos="fade-down">
 				<img src={sec2price} alt="" />

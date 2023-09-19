@@ -20,12 +20,38 @@
     justify-content: space-evenly;
     width: 100%;
     margin-top: 150px;
+
 }
 
-.sec2boxes > img{
+.sec2box1cont{
     width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.sec2box1cont > img{
+    width: 100%;
     max-width: 400px;
     height: auto;
+}
+
+.gogoleimage{
+    position: absolute !important;
+    width: 150px  !important;
+    height: auto  !important;
+    bottom: 50px;
+    left: 30px;
+}
+
+.appleimage{
+    position: absolute !important;
+    width: 150px  !important;
+    height: auto  !important;
+    bottom: 120px;
+    left: 30px;
 }
 
 .sec2price{
@@ -133,8 +159,15 @@
         margin-top: 50px;
     }
 
-    .sec2boxes > img{
+    .sec2box1cont{
         width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec2box1cont > img{
+        width: 100%;
         max-width: 400px;
         height: auto;
         margin-bottom: 40px;
@@ -212,6 +245,22 @@
     .man > img{
         width: 80%;
         margin-left: 68px;
+    }
+
+    .gogoleimage{
+        position: absolute !important;
+        width: 100px  !important;
+        height: auto  !important;
+        bottom: 50px;
+        left: 30px;
+    }
+    
+    .appleimage{
+        position: absolute !important;
+        width: 100px  !important;
+        height: auto  !important;
+        bottom: 95px;
+        left: 30px;
     }
     
 }
