@@ -39,7 +39,7 @@ export const Landsec2 = () => {
 						onClick={(e) => {
 							e.preventDefault();
 							window.location =
-								"https://portal.testapp.io/apps/install/d31eK16w0V1Wg";
+								"https://play.google.com/store/apps/details?id=com.app.plutope ";
 						}}
 						className="gogoleimage"
 					/>
